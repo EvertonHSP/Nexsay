@@ -43,15 +43,15 @@ Esses arquivos descrevem como o sistema funciona, os fluxos principais e as inte
 
 ---
 
-### Autores
+## Autores
 
-# Everton Hian dos Santos Pinheiro
+### Everton Hian dos Santos Pinheiro
 
 * Backend (Flask, PostgreSQL, JWT)
 * Arquitetura de Segurança
 * Documentação Técnica
 
-# Allan Kardec de Jesus Feliz Navegantes
+### Allan Kardec de Jesus Feliz Navegantes
 
 * Frontend (React.js)
 * Integração com APIs
