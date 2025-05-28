@@ -1,4 +1,4 @@
-**Nexay – Sistema de Mensagens Instantâneas**
+#### Nexay – Sistema de Mensagens
 
 **Nexay** é um projeto **acadêmico e experimental** que simula um sistema de mensagens. Foi desenvolvido com o objetivo de aprender e aplicar boas práticas de segurança da informação. Não se trata de um produto pronto para produção, mas sim de uma base sólida para estudo e evolução.
 A nossa aplicação utiliza **Python (Flask)** no backend e **React.js** no frontend, com comunicação entre as partes via **API RESTful**.
