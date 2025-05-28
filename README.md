@@ -174,6 +174,7 @@ pip install -r requirements.txt
 
 ```bash
 Não é nescessário, ja existe a função create_database_if_not_exists() que inicializa o banco
+Porém para essa função funcionar, o seu arquivo **.env** deve estar bem definido, pois vai ser nescessario acessar a senha do seu banco de dados
 ```
 
 6. Inicie a aplicação:
