@@ -173,7 +173,7 @@ pip install -r requirements.txt
 5. Realize as migrações:
 
 ```bash
-flask db upgrade
+Não é nescessário, ja existe a função create_database_if_not_exists() que inicializa o banco
 ```
 
 6. Inicie a aplicação:
