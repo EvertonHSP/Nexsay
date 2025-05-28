@@ -1,6 +1,6 @@
 # Nexay – Sistema de Mensagens
 
-**Nexay** é um projeto **acadêmico e experimental** que simula um sistema de mensagens. Foi desenvolvido com o objetivo de aprender e aplicar boas práticas de segurança da informação. Não se trata de um produto pronto para produção, mas sim de uma base sólida para estudo e evolução.
+**Nexay** é um projeto **acadêmico e experimental** que simula um sistema de mensagens. Ele foi desenvolvido com o objetivo de aprender e aplicar boas práticas de segurança da informação. Não se trata de um produto pronto para produção, mas sim de uma base sólida para estudo e evolução.
 A nossa aplicação utiliza **Python (Flask)** no backend e **React.js** no frontend, com comunicação entre as partes via **API RESTful**.
 
 ---
@@ -129,48 +129,103 @@ DEBUG=true
 * seu_email@gmail.com → Um e-mail Gmail (para enviar códigos 2FA).
 * senha_do_app_do_gmail → Não é a senha do e-mail! É uma "Senha de App" (https://support.google.com/accounts/answer/185833?hl=pt-BR).
 
+
 ---
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-### Backend
+### 📥 1. Clonando o Repositório
+
+Certifique-se de ter o **Git** instalado e execute o seguinte comando no terminal:
+
+```bash
+git clone https://github.com/EvertonHSP/Nexsay.git
+cd Nexsay
+```
+
+---
+
+### 🖥️ 2. Executando o Backend
+
+> Requisitos: Python 3.8+, PostgreSQL instalado e rodando.
+
+1. Acesse a pasta do backend:
 
 ```bash
 cd backend
+```
+
+2. Crie e ative o ambiente virtual:
+
+```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
+
+3. Instale as dependências:
+
+```bash
 pip install -r requirements.txt
 ```
 
-Inicie o banco de dados PostgreSQL e então:
+4. Configure o banco de dados PostgreSQL e verifique se ele está rodando.
+
+5. Realize as migrações:
 
 ```bash
 flask db upgrade
+```
+
+6. Inicie a aplicação:
+
+```bash
 python manage.py
 ```
 
 ---
 
-### Frontend
+### 💻 3. Executando o Frontend
+
+> Requisitos: Node.js e npm instalados.
+
+1. Acesse a pasta do frontend:
 
 ```bash
-cd frontend
-Bibliotecas Utilizadas:
+cd ../frontend
 ```
 
-| Biblioteca       | Comando para instalar      | Função principal                          |
-|------------------|----------------------------|------------------------------------------|
-| React            | `npm install react`         | Biblioteca principal para criar interfaces. |
-| ReactDOM         | `npm install react-dom`     | Necessária para renderizar o app na DOM.    |
-| React Router DOM | `npm install react-router-dom` | Navegação entre páginas (rotas).            |
-| Axios            | `npm install axios`         | Fazer requisições HTTP (ex: para APIs).       |
-| Dotenv           | `npm install dotenv`        | Lidar com variáveis de ambiente (ex: URL da API). |
+2. Instale as dependências do React:
 
 ```bash
 npm install
-npm run build
-serve -s build
 ```
+
+3. Configure as variáveis de ambiente, se necessário (ex: `.env` com URL da API).
+
+4. Para ambiente de desenvolvimento:
+
+```bash
+npm start
+```
+
+5. Para ambiente de produção:
+
+```bash
+npm run build
+npx serve -s build
+```
+
+---
+
+## Bibliotecas Utilizadas no Frontend
+
+| Biblioteca       | Comando para instalar          | Função principal                            |
+| ---------------- | ------------------------------ | ------------------------------------------- |
+| React            | `npm install react`            | Biblioteca principal para criar interfaces. |
+| ReactDOM         | `npm install react-dom`        | Renderiza o app na árvore DOM do navegador. |
+| React Router DOM | `npm install react-router-dom` | Gerenciamento de rotas entre páginas.       |
+| Axios            | `npm install axios`            | Realiza requisições HTTP à API.             |
+| Dotenv           | `npm install dotenv`           | Gerencia variáveis de ambiente no frontend. |
 
 ---
 
