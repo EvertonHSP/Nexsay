@@ -1,0 +1,17 @@
+Flask
+Flask-Login
+SQLAlchemy
+psycopg2-binary
+marshmallow
+python-dotenv
+flask-cors
+flask-migrate
+flask-bcrypt
+flask-restful
+flask_jwt_extended
+flask_mail
+requests
+Flask-SocketIO
+python-engineio
+python-socketio
+eventlet

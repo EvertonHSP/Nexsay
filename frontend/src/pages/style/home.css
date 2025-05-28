@@ -1,0 +1,153 @@
+
+.contato-menu-container {
+  position: relative;
+  margin-left: auto;
+}
+
+.contato-menu-btn {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.contato-menu-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.contato-menu-opcoes {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 120px;
+  overflow: hidden;
+}
+
+.menu-opcao {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.menu-opcao:hover {
+  background-color: #f5f5f5;
+}
+
+.menu-opcao:first-child {
+  border-bottom: 1px solid #eee;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.nova-conversa-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.nova-conversa-btn:hover {
+  background-color: #2980b9;
+}
+
+.contatos-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+  z-index: 1000;
+}
+
+.contatos-modal-content {
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.adicionar-contato-btn {
+  width: 100%;
+  padding: 1rem;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.adicionar-contato-btn:hover {
+  background-color: #219653;
+}
+
+.contatos-list {
+  padding: 1rem;
+}
+
+.contato-item {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 4px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.contato-item:hover {
+  background-color: #e0e0e0;
+}
+
+.conversas-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf0f1;
+}

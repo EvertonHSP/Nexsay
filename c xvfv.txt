@@ -1,0 +1,219 @@
+usuarios.js:27 Unhandled rejection: DatabaseClosedError: Database has been closed
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+From previous: 
+    at Qo.n (http://localhost:3000/static/js/main.10f77bce.js:2:278032)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295653)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+    at rs (http://localhost:3000/static/js/main.10f77bce.js:2:162777)
+From previous: DatabaseClosedError: Database has been closed
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+From previous: 
+    at sa (http://localhost:3000/static/js/main.10f77bce.js:2:280466)
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286078)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+usuarios.js:37 Error getting current user: 
+r {_e: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new r (http://lo…, name: 'DatabaseClosedError', message: 'Database has been closed', inner: null, _promise: Qo, …}
+db.js:16 Banco de dados antigo limpo
+usuarios.js:27 Unhandled rejection: DatabaseClosedError: Database has been closed
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+From previous: 
+    at Qo.n (http://localhost:3000/static/js/main.10f77bce.js:2:278032)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295653)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+    at rs (http://localhost:3000/static/js/main.10f77bce.js:2:162777)
+From previous: DatabaseClosedError: Database has been closed
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+From previous: 
+    at sa (http://localhost:3000/static/js/main.10f77bce.js:2:280466)
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286078)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+usuarios.js:37 Error getting current user: 
+r {_e: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new r (http://lo…, name: 'DatabaseClosedError', message: 'Database has been closed', inner: null, _promise: Qo, …}
+:3000/login:1 [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) 
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ror getting current user: r {_e: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new r (http://lo…, name: 'DatabaseClosedError', message: 'Database has been closed', inner: null, _promise: Qo, …}inner: nullmessage: "Database has been closed"name: "DatabaseClosedError"_e: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new r (http://localhost:3000/static/js/main.10f77bce.js:2:274615)
+    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)
+    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880stack: "Error\n    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)\n    at new r (http://localhost:3000/static/js/main.10f77bce.js:2:274615)\n    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)\n    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)\n    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)\n    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)\n    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)\n    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347625\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347880"[[Prototype]]: Object_promise: Qoonuncatched: ƒ go()_PSD: {id: 'global', global: true, ref: 4, unhandleds: Array(0), onunhandled: ƒ, …}_lib: false_listeners: []_numPrev: 1_prev: Qo {_listeners: Array(0), _lib: false, _PSD: {…}, _stackHolder: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new Qo (http://l…, onuncatched: ƒ, …}_stack: "DatabaseClosedError: Database has been closed\n    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)\n    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)\n    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)\n    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)\n    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)\n    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347625\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347880\nFrom previous: \n    at Qo.n (http://localhost:3000/static/js/main.10f77bce.js:2:278032)\n    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295653)\n    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)\n    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)\n    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347625\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347880\n    at rs (http://localhost:3000/static/js/main.10f77bce.js:2:162777)\nFrom previous: DatabaseClosedError: Database has been closed\n    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)\n    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)\n    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)\n    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)\n    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)\n    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347625\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347880\nFrom previous: \n    at sa (http://localhost:3000/static/js/main.10f77bce.js:2:280466)\n    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286078)\n    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)\n    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)\n    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)\n    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)\n    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347625"_stackHolder: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new Qo (http://localhost:3000/static/js/main.10f77bce.js:2:277657)
+    at Qo.n (http://localhost:3000/static/js/main.10f77bce.js:2:278032)
+    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295653)
+    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)
+    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)
+    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347625
+    at http://localhost:3000/static/js/main.10f77bce.js:2:347880
+    at rs (http://localhost:3000/static/js/main.10f77bce.js:2:162777)_state: false_value: r {_e: Error
+    at ro (http://localhost:3000/static/js/main.10f77bce.js:2:272948)
+    at new r (http://lo…, name: 'DatabaseClosedError', message: 'Database has been closed', inner: null, _promise: Qo, …}stack: (...)then: (...)[[Prototype]]: Dexie.Promise_stack: "DatabaseClosedError: Database has been closed\n    at Ba (http://localhost:3000/static/js/main.10f77bce.js:2:286081)\n    at Qa._trans (http://localhost:3000/static/js/main.10f77bce.js:2:287138)\n    at li._read (http://localhost:3000/static/js/main.10f77bce.js:2:295632)\n    at li.toArray (http://localhost:3000/static/js/main.10f77bce.js:2:296664)\n    at li.first (http://localhost:3000/static/js/main.10f77bce.js:2:297451)\n    at El (http://localhost:3000/static/js/main.10f77bce.js:2:346463)\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347625\n    at http://localhost:3000/static/js/main.10f77bce.js:2:347880"stack: (...)get stack: ()=>Ao?n&&(n.get?n.get.apply(t):n.value):e.stacklength: 0name: "get"arguments: (...)caller: (...)[[FunctionLocation]]: dexie.mjs:835[[Prototype]]: ƒ ()[[Scopes]]: Scopes[5][[Prototype]]: soconstructor: ƒ r(e,r)stack: (...)[[Prototype]]: Error
+El @ usuarios.js:37
+await in El
+(anonymous) @ AuthContext.js:63
+(anonymous) @ AuthContext.js:95
+rs @ react-dom.production.min.js:243
+ku @ react-dom.production.min.js:285
+(anonymous) @ react-dom.production.min.js:281
+k @ scheduler.production.min.js:13
+T @ scheduler.production.min.js:14
+:3000/login:1 [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) <input type=​"password" required value>
+
+
+
+
+
+AuthContext.js:174 Erro detalhado: 
+{error: 'Token de acesso não recebido', stack: 'Error: Token de acesso não recebido\n    at verifyL…calhost:3000/static/js/main.10f77bce.js:2:350300)'}
+error
+: 
+"Token de acesso não recebido"
+stack
+: 
+"Error: Token de acesso não recebido\n    at verifyLogin (http://localhost:3000/static/js/main.10f77bce.js:2:348815)\n    at async onSubmit (http://localhost:3000/static/js/main.10f77bce.js:2:352307)\n    at async onSubmit (http://localhost:3000/static/js/main.10f77bce.js:2:350300)"
+[[Prototype]]
+: 
+Object
+constructor
+: 
+ƒ Object()
+hasOwnProperty
+: 
+ƒ hasOwnProperty()
+isPrototypeOf
+: 
+ƒ isPrototypeOf()
+propertyIsEnumerable
+: 
+ƒ propertyIsEnumerable()
+toLocaleString
+: 
+ƒ toLocaleString()
+toString
+: 
+ƒ toString()
+valueOf
+: 
+ƒ valueOf()
+__defineGetter__
+: 
+ƒ __defineGetter__()
+__defineSetter__
+: 
+ƒ __defineSetter__()
+__lookupGetter__
+: 
+ƒ __lookupGetter__()
+__lookupSetter__
+: 
+ƒ __lookupSetter__()
+__proto__
+: 
+(...)
+get __proto__
+: 
+ƒ __proto__()
+set __proto__
+: 
+ƒ __proto__()
+verifyLogin	@	AuthContext.js:174
+await in verifyLogin		
+onSubmit	@	Login.js:29
+onSubmit	@	Verify2FA.js:22
+​
