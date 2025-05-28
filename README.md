@@ -74,24 +74,24 @@ Esses arquivos descrevem como o sistema funciona, os fluxos principais e as inte
 
 ---
 
-### Configurando o Banco de Dados (PostgreSQL)
-# Passo 1: Instale o PostgreSQL
+## Configurando o Banco de Dados (PostgreSQL)
+### Passo 1: Instale o PostgreSQL
 Baixe e instale o PostgreSQL no seu computador.
 Durante a instalação, anote a senha que você definiu para o usuário postgres.
 
-# Passo 2: Abra o pgAdmin (Interface Gráfica do PostgreSQL)
+### Passo 2: Abra o pgAdmin (Interface Gráfica do PostgreSQL)
 Após instalar, procure por pgAdmin no seu computador e abra.
 Clique em Servers > PostgreSQL e insira a senha que você criou.
 
-# Passo 3: O Banco será Criado Automaticamente
+### Passo 3: O Banco será Criado Automaticamente
 O Nexay já tem um sistema que cria o banco de dados sozinho quando você inicia o backend. Você só precisa garantir que:
 * O PostgreSQL está rodando.
 * O usuário postgres existe e que sua configuração esta no .env.
 ---
 
-### Configurando o Arquivo .env (Backend)
+## Configurando o Arquivo .env (Backend)
 O .env guarda configurações importantes como senhas e chaves.
-# Passo 1: Edite ou crie o arquivo .env na pasta backend/
+### Passo 1: Edite ou crie o arquivo .env na pasta backend/
     Copie o conteúdo abaixo e cole em um novo arquivo chamado .env:
 
 
@@ -132,9 +132,9 @@ DEBUG=true
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
-### 📥 1. Clonando o Repositório
+### 1. Clonando o Repositório
 
 Certifique-se de ter o **Git** instalado e execute o seguinte comando no terminal:
 
@@ -145,7 +145,7 @@ cd Nexsay
 
 ---
 
-### 🖥️ 2. Executando o Backend
+### 2. Executando o Backend
 
 > Requisitos: Python 3.8+, PostgreSQL instalado e rodando.
 
@@ -184,7 +184,7 @@ python manage.py
 
 ---
 
-### 💻 3. Executando o Frontend
+### 3. Executando o Frontend
 
 > Requisitos: Node.js e npm instalados.
 
