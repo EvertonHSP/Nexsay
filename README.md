@@ -172,7 +172,7 @@ pip install -r requirements.txt
 
 5. Realize as migrações:
 
-Não é nescessário, ja existe a função **create_database_if_not_exists()** que inicializa o banco
+Não é nescessário, ja existe a função **create_database_if_not_exists()** que inicializa o banco. 
 **Porém** para essa função funcionar, o seu arquivo **.env** deve estar bem definido, pois vai ser nescessario acessar a senha do seu banco de dados
 
 
