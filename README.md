@@ -188,10 +188,10 @@ python manage.py
 
 > Requisitos: Node.js e npm instalados.
 
-1. Acesse a pasta do frontend:
+1. Acesse a pasta do frontend em outro terminal:
 
 ```bash
-cd ../frontend
+cd frontend
 ```
 
 2. Instale as dependências do React:

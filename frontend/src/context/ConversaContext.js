@@ -157,17 +157,14 @@ export const ConversaProvider = ({ children }) => {
   };
 
 
-const carregarMensagens = async (conversaId, page = 1) => {
-    if (!user?.jwt_token) {
-        return { success: false, message: 'Usuário não autenticado' };
-    }
+const carregarMensagens = async (conversaId, page = 1, forceReload = false) => {
+    if (!user?.jwt_token) return { success: false, message: 'Usuário não autenticado' };
     
     setLoadingMensagens(true);
     setErrorMensagens(null);
 
     try {
         let mensagensData = [];
-        let paginas = 1; // Valor padrão
         
         if (isOffline) {
             // Carrega do cache offline
@@ -180,10 +177,8 @@ const carregarMensagens = async (conversaId, page = 1) => {
             // Carrega da API
             const response = await conversaApi.listarMensagens(user.jwt_token, conversaId, page);
             
-            // Verifica se a resposta tem a estrutura esperada
             if (response.mensagens && Array.isArray(response.mensagens)) {
                 mensagensData = response.mensagens;
-                paginas = response.paginas || 1; // Armazena o número de páginas
             } else if (Array.isArray(response)) {
                 mensagensData = response;
             } else {
@@ -191,8 +186,17 @@ const carregarMensagens = async (conversaId, page = 1) => {
             }
         }
 
-        // Atualiza o estado mantendo as mensagens existentes
+        // Atualiza o estado
         setMensagens(prev => {
+            // Se for forceReload, substitui completamente
+            if (forceReload) {
+                return {
+                    ...prev,
+                    [conversaId]: mensagensData
+                };
+            }
+            
+            // Caso contrário, mescla as mensagens
             const existingMessages = prev[conversaId] || [];
             
             // Filtra para evitar duplicatas
@@ -206,11 +210,7 @@ const carregarMensagens = async (conversaId, page = 1) => {
             };
         });
         
-        return { 
-            success: true, 
-            data: mensagensData,
-            hasMore: paginas > page // Usa a variável paginas que foi definida
-        };
+        return { success: true, data: mensagensData };
     } catch (error) {
         console.error('Erro ao carregar mensagens:', error);
         setErrorMensagens(error.message);
@@ -219,7 +219,6 @@ const carregarMensagens = async (conversaId, page = 1) => {
         setLoadingMensagens(false);
     }
 };
-
 
   const excluirMensagem = async (conversaId, mensagemId) => {
     if (!user?.jwt_token) {
@@ -468,6 +467,7 @@ const enviarMensagem = async (conversaId, texto) => {
         excluirConversa,
         enviarMensagem,
         carregarMensagens,
+        setMensagens,
         excluirMensagem,
         enviarPrimeiraMensagem,
         recarregarConversas: fetchConversas,

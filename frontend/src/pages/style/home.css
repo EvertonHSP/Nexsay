@@ -1,8 +1,28 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contatos-modal-header h2 {
+  color: #2d3748; /* Tom escuro com nuance azul metálico */
+  text-align: center; /* Centralizado */
+  font-size: 1.5rem; /* Tamanho aumentado */
+  font-weight: 600; /* Peso médio-forte */
+  letter-spacing: -0.015em; /* Espaçamento sutil entre letras */
+  margin: 0 0 1rem 0; /* Margem apenas na parte inferior */
+  padding: 0.5rem 0; /* Espaçamento vertical */
+  width: 100%; /* Ocupa toda a largura */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+}
+
 .contato-menu-container {
   position: relative;
   margin-left: auto;
+  padding: 0.5rem; 
 }
+
 
 .contato-menu-btn {
   background: none;
@@ -15,25 +35,27 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 32px; 
+  height: 32px;
   border-radius: 50%;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
+  margin: 0; 
 }
 
 .contato-menu-btn:hover {
   background-color: #f0f0f0;
 }
 
+
 .contato-menu-opcoes {
   position: absolute;
-  right: 0;
-  top: 100%;
+  right: 0.5rem; 
+  top: calc(100% + 0.5rem); 
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 10;
-  min-width: 120px;
+  min-width: 140px; 
   overflow: hidden;
 }
 
@@ -47,6 +69,7 @@
   color: #333;
   font-size: 0.9rem;
   transition: background-color 0.2s;
+  white-space: nowrap; 
 }
 
 .menu-opcao:hover {
@@ -57,10 +80,12 @@
   border-bottom: 1px solid #eee;
 }
 
+
 .home-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding: 0;
 }
 
 .home-header {
@@ -76,15 +101,17 @@
   background-color: #3498db;
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem; 
   border-radius: 4px;
   cursor: pointer;
   font-size: 1rem;
+  margin: 0; 
 }
 
 .nova-conversa-btn:hover {
   background-color: #2980b9;
 }
+
 
 .contatos-modal {
   position: fixed;
@@ -96,58 +123,119 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 2rem;
+  padding: 2rem 1rem; 
   z-index: 1000;
 }
 
 .contatos-modal-content {
   background-color: white;
   width: 80%;
-  max-width: 400px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  max-height: 80vh;
+  height: 80%; 
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
+
 .adicionar-contato-btn {
-  width: 100%;
-  padding: 1rem;
+  width: 90%;
+  padding: 1.2rem;
   background-color: #27ae60;
   color: white;
   border: none;
   border-radius: 8px 8px 0 0;
   cursor: pointer;
   font-size: 1rem;
+  margin: 0 auto; 
+  display: block; 
 }
 
 .adicionar-contato-btn:hover {
   background-color: #219653;
 }
 
+
 .contatos-list {
   padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .contato-item {
   width: 100%;
-  padding: 0.8rem;
-  margin-bottom: 0.5rem;
+  padding: 1rem; 
+  margin-bottom: 0.75rem; 
   background-color: #f5f5f5;
   border: none;
   border-radius: 4px;
   text-align: left;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
 }
 
 .contato-item:hover {
   background-color: #e0e0e0;
 }
 
+
 .conversas-container {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;   /* Centraliza HORIZONTALMENTE */
+  align-items: flex-start;   /* Alinha no TOPO VERTICALMENTE */
   background-color: #ecf0f1;
+  padding: 1rem;
+  overflow-y: auto;          /* Adicione se precisar de scroll */
+}
+
+
+.contato-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.contato-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.contato-nome {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contato-email {
+  display: block;
+  color: #666;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contatos-search input {
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
 }
